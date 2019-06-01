@@ -6,6 +6,11 @@ body {
   border: 1px solid #000000;
   background-color: #6f6770;
 }
+body div {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
 body div.header {
   color: #EAE6DA;
   font-family: Comic Sans MS;
