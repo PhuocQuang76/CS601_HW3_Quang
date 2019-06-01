@@ -33,38 +33,21 @@ body div.header {
   background-image: linear-gradient(#8B6670, rgba(20, 16, 15, 0.74));
   /* the standard */
 }
-body css main {
-  position: relative;
-  overflow: auto;
-  width: 50%;
-  height: 100%;
-  margin: auto;
-  display: block;
-  padding-bottom: 0px;
-  margin-top: 18px;
-  background-color: #82d0ff;
-  -webkit-border-radius: 10%;
-  -moz-border-radius: 10%;
-  border-radius: 10%;
+body div.image img {
+  margin-left: 50px;
 }
-body css main div {
-  width: 25%;
-  float: left;
-  text-align: center;
-}
-body css main div.button > button {
+body div.button button {
   font-weight: bold;
   font-size: 120%;
   width: 150px;
-  height: 30px;
-  margin-top: 120px;
-  margin-left: 120px;
+  height: 35px;
+  margin-top: 80px;
   background-color: cadetblue;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
 }
-body css main div.button > button:hover {
+body div.button button:hover {
   color: #ffff00;
   font-style: italic;
 }
